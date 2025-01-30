@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 2 column structure</title>
+    <link scr="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+           
+              <img src="https://missrose.com.pk/cdn/shop/files/NewConcealer2.jpg?v=1700905155&width=600" >
+              <h1>Hag E1 laila & Gergaian Shop</h1>
+              <p>Shop our latest Collection</p>
+        </div>     
+           
+         <div class="right-column"> 
+               <h2> Hag E1 Laila & Gergaian Shop</h2>
+               <p>Explore our Collection</p>
+               <a href="# " class="shop-now">SHOP NOW</a> <br><br>
+
+               <img src=https://missrosepk.com/cdn/shop/products/MissRoseSilkFlawlessFoundationbeige02.jpg?v=1674247071&width=600 >
+        </div>
+        
+    </div>
+<style>
+ .{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(129, 126, 126);
+}
+.container{
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+
+    background-color:rgb(189, 189, 160);
+}
+.left-column,.right-column{
+ flex: 1;
+ /*both coloumn share = space & ajust their width of their content but still mainatin =spacing rule*/
+ padding: 30px;
+ text-align: center;
+}
+.right-column{
+    background-color: beige;
+    text-align: left;
+}
+.left-column img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+} 
+.right-column img{
+    width: 90%;
+    max-width: 400px;
+    border-radius:20px ;
+}
+
+.shop-now{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+h1{
+    font-size:2em ;
+}
+
+h2{
+    margin: 20px,0px;
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+    
+</style>
+
+
+ 
+</body>
+</html>
