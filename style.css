@@ -1,0 +1,26 @@
+/*.container{
+    background-color: rgb(190, 160, 178);
+    padding: 50px;
+  }
+  .box{
+      display: flex;
+      justify-content: space-between;
+      /*this distributes the child element along the main axis (horizontaly by default)
+      gap:10px ;
+}
+   .container{
+    border: 20px solid rgb(138, 136, 172);
+   }*/
+
+
+   body{
+    margin: 0px;
+   }
+   .container{
+    background-color: aqua;
+    padding: 20px;
+   }
+   .flex{
+    display: flex;
+    justify-content:space-between ;
+   }
